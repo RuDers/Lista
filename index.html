@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<title> Login </title>
+	<style type="text/css">@import "css/login.css";</style>
+</head>
+
+<body>
+	<div id="envoltura">
+		<div id="mensaje"></div>
+			<div id="contenedor" class="curva">
+				<div id="cabecera" class="tac">
+                    <p> Login </p>
+				</div>
+				<div id="cuerpo">
+					<form id="form-login" action="login.php" method="post" autocomplete="off">
+						<p>
+							<label for="usuario">Usuario:</label>
+						</p>
+						<p class="mb10">
+							<input name="username" type="text" id="usuario" autofocus required />
+						</p>
+						<p>
+							<label for="contrasenia">Contrase&ntilde;a:</label>
+						</p>
+						<p class="mb10">
+							<input name="password" type="password" id="contrasenia" required />
+						</p>
+						<p>
+							<input name="submit" type="submit" id="submit" value="Ingresar" class="boton" />
+							<a href='register.php'> <input name="submit" type="submit" id="submit" value="Registrar" class="boton" /></a>
+						</p>
+					</form>
+				</div>
+				<div id="pie" class="tac">
+					Sistema de Gesti&oacute;n de Contenidos
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
